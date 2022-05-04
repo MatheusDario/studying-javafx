@@ -4,10 +4,9 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
 
-
-<VBox alignment="CENTER" prefHeight="300.0" prefWidth="400.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="com.example.about_javafx.HelloController">
+<VBox alignment="CENTER" prefHeight="300.0" prefWidth="400.0" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.about_javafx.ViewController">
    <children>
       <Label text="Click Here" />
-      <Button mnemonicParsing="false" prefHeight="24.0" prefWidth="76.0" text="Button" />
+      <Button fx:id="btTest" mnemonicParsing="false" onAction="#onBtTestAction" prefHeight="24.0" prefWidth="76.0" text="Button" />
    </children>
 </VBox>
