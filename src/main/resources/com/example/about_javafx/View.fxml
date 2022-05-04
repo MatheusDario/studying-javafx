@@ -6,6 +6,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
+<<<<<<< HEAD:src/main/resources/com/example/about_javafx/View.fxml
 <VBox alignment="CENTER" prefHeight="300.0" prefWidth="400.0" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.about_javafx.ViewController">
    <children>
       <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="5.0" prefHeight="33.0" prefWidth="159.0" text="Calculate Sum" textAlignment="CENTER">
@@ -22,5 +23,11 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
+=======
+<VBox alignment="CENTER" prefHeight="300.0" prefWidth="400.0" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
+   <children>
+      <Label text="Click Here" />
+      <Button fx:id="btTest" mnemonicParsing="false" onAction="#onBtTestAction" prefHeight="24.0" prefWidth="76.0" text="Button" />
+>>>>>>> dcd6969531cc4eb1e49583ff8627a8be21f5c6ae:src/main/resources/com/example/program/View.fxml
    </children>
 </VBox>
