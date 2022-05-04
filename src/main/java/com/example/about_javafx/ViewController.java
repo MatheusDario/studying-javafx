@@ -1,4 +1,4 @@
-package com.example.program;
+package com.example.about_javafx;
 
 import gui.util.Alerts;
 import javafx.fxml.FXML;
@@ -25,14 +25,14 @@ public class ViewController{
 
     @FXML
     public void onBtSumAction() {
-       try {
-           Locale.setDefault(Locale.US);
-           double number1 = Double.parseDouble(txtNumber1.getText());
-           double number2 = Double.parseDouble(txtNumber2.getText());
-           double sum = number1 + number2;
-           labelResult.setText(String.format("%.2f", sum));
-       } catch (NumberFormatException e) {
-           Alerts.showAlert("Error", "Parser Error", e.getMessage(), Alert.AlertType.ERROR);
-       }
+        try {
+            Locale.setDefault(Locale.US);
+            double number1 = Double.parseDouble(txtNumber1.getText());
+            double number2 = Double.parseDouble(txtNumber2.getText());
+            double sum = number1 + number2;
+            labelResult.setText(String.format("%.2f", sum));
+        } catch (NumberFormatException e) {
+            Alerts.showAlert("Error", null, e.getMessage(), Alert.AlertType.ERROR);
+        }
     }
 }

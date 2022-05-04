@@ -6,28 +6,20 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<<<<<<< HEAD:src/main/resources/com/example/about_javafx/View.fxml
 <VBox alignment="CENTER" prefHeight="300.0" prefWidth="400.0" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.about_javafx.ViewController">
    <children>
-      <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="5.0" prefHeight="33.0" prefWidth="159.0" text="Calculate Sum" textAlignment="CENTER">
+      <Label alignment="BOTTOM_LEFT" contentDisplay="BOTTOM" text="Calculate Sum">
          <font>
-            <Font name="System Bold" size="18.0" />
+            <Font name="System Bold" size="15.0" />
          </font>
       </Label>
-      <TextField fx:id="txtNumber1" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="150.0" promptText="First Number" />
-      <TextField fx:id="txtNumber2" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="31.0" prefWidth="150.0" promptText="Second Number" />
-      <Button fx:id="btSum" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onBtSumAction" prefHeight="24.0" prefWidth="72.0" text="Sum" textAlignment="RIGHT" />
-      <Label text="Result = " />
-      <Label fx:id="labelResult" contentDisplay="RIGHT" prefHeight="16.0" prefWidth="51.0" textFill="#dd1010">
+      <TextField fx:id="txtNumber1" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="35.0" prefWidth="150.0" promptText="First Number" />
+      <TextField fx:id="txtNumber2" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="35.0" prefWidth="150.0" promptText="Second Number" />
+      <Button fx:id="btSum" mnemonicParsing="false" onAction="#onBtSumAction" prefHeight="25.0" prefWidth="150.0" text="SUM" />
+      <Label fx:id="labelResult" prefHeight="16.0" prefWidth="83.0" textFill="#e10c0c">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-=======
-<VBox alignment="CENTER" prefHeight="300.0" prefWidth="400.0" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
-   <children>
-      <Label text="Click Here" />
-      <Button fx:id="btTest" mnemonicParsing="false" onAction="#onBtTestAction" prefHeight="24.0" prefWidth="76.0" text="Button" />
->>>>>>> dcd6969531cc4eb1e49583ff8627a8be21f5c6ae:src/main/resources/com/example/program/View.fxml
    </children>
 </VBox>
