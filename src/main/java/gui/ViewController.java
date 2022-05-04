@@ -1,4 +1,4 @@
-package com.example.about_javafx;
+package gui;
 
 import gui.util.Alerts;
 import javafx.fxml.FXML;
